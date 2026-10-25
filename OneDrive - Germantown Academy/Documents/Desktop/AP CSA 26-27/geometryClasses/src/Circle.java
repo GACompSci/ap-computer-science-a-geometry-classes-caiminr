@@ -9,7 +9,7 @@ public class Circle {
     }
 
     public int getRadius() {
-        radius = MathTools.randint(1,10);
+        radius = MathTools.randInt(1,10);
         return radius;
     }
 

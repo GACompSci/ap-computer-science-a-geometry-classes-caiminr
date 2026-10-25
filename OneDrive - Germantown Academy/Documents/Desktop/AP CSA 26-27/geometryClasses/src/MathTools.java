@@ -1,7 +1,6 @@
 public class MathTools {
-    //Create the static MathTools methods in this file
     
-        public static int randint(int min, int max){
+        public static int randInt(int min, int max){
             return (int)(Math.random() * (max - min + 1)) + min;
         
         }
@@ -20,8 +19,7 @@ public class MathTools {
         }
         
         public static double slope(Point a, Point b){
-            return (b.getY() - a.getY())/(b.getX() - a.getX())
-
+            return (b.getY() - a.getY())/(b.getX() - a.getX());
 
         }
 
